@@ -1,14 +1,14 @@
-package com.ctd.product;
+package com.ctd.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-
-public class ProductApplication {
+@EnableConfigServer
+public class ConfigServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProductApplication.class, args);
+		SpringApplication.run(ConfigServerApplication.class, args);
 	}
 
 }
